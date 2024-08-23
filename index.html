@@ -1,20 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Прогноз на осень-зиму 2024-2025</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:wght@500;600;700&family=Unbounded:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <header class="header"><div class="container"></div></header>
     <main>
-      <section></section>
+      <section class="hero section">
+        <div class="container">
+          <div class="hero-title-container">
+            <h1 class="hero-title">Прогноз на осень-зиму 2024-2025</h1>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/hero/title-image-1x.png 1x,
+                  ./src/img/hero/title-image-2x.png 2x
+                "
+                width="46"
+                height="46" />
+              <img
+                class="hero-image"
+                src="./src/img/hero/title-image-1x.png"
+                alt="stars"
+                width="46"
+                height="46"
+            /></picture>
+          </div>
+          <p class="hero-desc">«Последняя осень…?»</p>
+        </div>
+      </section>
+      <section class="prediction-desc section">
+        <div class="container">
+          <ul class="prediction-list">
+            <li class="list-item">Позади самый «лучший»😨 период 2024 года.</li>
+            <li class="list-item">
+              Впереди новые вызовы и испытания. И новые достижения!
+            </li>
+            <li class="list-item">
+              В этот раз, планетные влияния, которые мы начнем ощущать осенью,
+              будут актуальны до лета 2025 года
+            </li>
+            <li class="list-item">
+              Те события, которые начнут происходить, станут отправной точкой к
+              весенним изменениям
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="what-do section">
+        <div class="container">
+          <div class="what-do-wrapper">
+            <ul class="what-do-list">
+              <li class="list-item">Чего ждать?</li>
+              <li class="list-item">К чему готовиться?</li>
+              <li class="list-item">Где «подстелить»?</li>
+              <li class="list-item">Куда ресурс направить?</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="traditional section">
+        <div class="container">
+          <div class="traditional-container">
+            <h2 class="traditional-title">
+              По традиции, проведу <br />
+              два глубоких вебинара <br />
+              <span>с детальным раскладом</span>
+            </h2>
+          </div>
+          <p class="traditional-date">8 и 15 сентября</p>
+          <img
+            class="traditional-image"
+            src="./src/img/traditional/arrow-bottom.svg"
+            alt="arrow"
+            width="46"
+            height="46"
+          />
+        </div>
+      </section>
+      <section class="vebinar-steps section">
+        <div class="container">
+          <ul class="vebinar-list">
+            <li class="list-item">
+              <div class="item-title-container">
+                <h4 class="item-title">
+                  На первом вебинаре мы рассмотрим влияния и возможные события
+                  осени:
+                </h4>
+                <span class="item-number">1</span>
+              </div>
+              <div class="item-wrapper">
+                <ul class="steps-list">
+                  <li class="steps-item">эскалация и ядерная опасность</li>
+                  <li class="steps-item">карантин</li>
+                  <li class="steps-item">где безопаснее</li>
+                  <li class="steps-item">проблемы с продовольствием</li>
+                  <li class="steps-item">тепло, энергообеспечение</li>
+                  <li class="steps-item">мобилизация</li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-title-container">
+                <h4 class="item-title">
+                  На втором дам детальный прогноз для каждого знака <br />
+                  <br />
+                  Поймете:
+                </h4>
+                <span class="item-number">2</span>
+              </div>
+              <div class="item-wrapper">
+                <ul class="steps-list">
+                  <li class="steps-item">куда направить энергию</li>
+                  <li class="steps-item">
+                    в каких сферах можно получить результаты
+                  </li>
+                  <li class="steps-item">где лучше поберечься</li>
+                  <li class="steps-item">
+                    кому действовать, а кому быть аккуратнее
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="possibility-wrapper">
+            <h3 class="possibility-title">Также, у вас будет возможность</h3>
+            <p class="possibility-text">
+              получить персональные рекомендации на этот период исходя из вашей
+              карты
+            </p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/possibility/wrapper-image-1x.png 1x,
+                  ./src/img/possibility/wrapper-image-2x.png 2x
+                "
+                width="50"
+                height="50" />
+              <img
+                class="pos-image"
+                src="./src/img/possibility/wrapper-image-1x.png"
+                alt="fire"
+                width="50"
+                height="50"
+            /></picture>
+          </div>
+        </div>
+      </section>
+      <section class="tariffs section">
+        <div class="container">
+          <h2 class="tariffs-title">Варианты участия:</h2>
+          <ul class="tariffs-list">
+            <li class="list-item">
+              <h3 class="item-title">Optimal</h3>
+              <ul class="entries-list">
+                <li class="entry-item">
+                  <img
+                    class="check-mark-image"
+                    src="./src/img/tariffs/check-mark.svg"
+                    alt="check-mark"
+                    width="20"
+                    height="20"
+                  />
+                  2 вебинара
+                </li>
+                <li class="entry-item">
+                  <img
+                    class="check-mark-image"
+                    src="./src/img/tariffs/check-mark.svg"
+                    alt="check-mark"
+                    width="20"
+                    height="20"
+                  />
+                  Доступ к материалам 3 мес
+                </li>
+              </ul>
+              <div class="price-container">
+                <div class="price-line"></div>
+                <p class="price"><span>$200</span> $65</p>
+              </div>
+              <button class="buy-btn">КУПИТЬ</button>
+            </li>
+            <li class="list-item">
+              <h3 class="item-title">Personal</h3>
+              <ul class="entries-list">
+                <li class="entry-item">
+                  <img
+                    class="check-mark-image"
+                    src="./src/img/tariffs/check-mark.svg"
+                    alt="check-mark"
+                    width="20"
+                    height="20"
+                  />
+                  2 вебинара+персональные рекомендации по карте (аудио-формат
+                  15-20 мин)
+                </li>
+                <li class="entry-item">
+                  <img
+                    class="check-mark-image"
+                    src="./src/img/tariffs/check-mark.svg"
+                    alt="check-mark"
+                    width="20"
+                    height="20"
+                  />
+                  Доступ к материалам 6 мес
+                </li>
+              </ul>
+              <div class="price-container">
+                <div class="price-line"></div>
+                <p class="price"><span>$600</span> $185</p>
+              </div>
+              <button class="buy-btn">КУПИТЬ</button>
+              <span class="plases">только 10 мест</span>
+            </li>
+          </ul>
+          <div class="timer-container">
+            <h3 class="timer-title">повышение цены через:</h3>
+            <div id="countdown-one" class="countdown">
+              <div class="countdown-number">
+                <span class="days countdown-time"></span>
+                <div class="countdown-label days-label"></div>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+                <div class="countdown-label hours-label"></div>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+                <div class="countdown-label minutes-label"></div>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+                <div class="countdown-label seconds-label"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer"><div class="container"></div></footer>
+    <script type="module" src="./src/js/timer.js"></script>
   </body>
 </html>

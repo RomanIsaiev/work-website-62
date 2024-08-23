@@ -9,6 +9,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  background-color: #0d0d0d;
 }
 
 body.is-hidden {
@@ -47,17 +49,19 @@ body::-webkit-scrollbar-track {
 
 .section {
   padding: 60px 0;
+  /* max-width: 430px; */
+  /* margin: 0 auto; */
 }
 
 .container {
   margin: 0 auto;
   width: 100%;
-  padding: 0 16px;
+  padding: 0 20px;
 
-  @media (360px <= width) {
-    max-width: 360px;
+  @media (375px <= width) {
+    max-width: 375px;
   }
-
+  /* 
   @media (768px<=width) {
     max-width: 768px;
   }
@@ -65,5 +69,5 @@ body::-webkit-scrollbar-track {
   @media (1280px<=width) {
     max-width: 1280px;
     padding: 0 24px;
-  }
+  } */
 }
