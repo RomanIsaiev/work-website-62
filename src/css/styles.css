@@ -8,6 +8,18 @@
 @import url(../css/utils/variables.css);
 @import url(../css/utils/common.css);
 
+@keyframes pulseScale {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.07;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
 /* hero */
 
 .hero {
@@ -446,6 +458,8 @@
   width: 100%;
   margin: 0 auto;
   border: inherit;
+
+  animation: pulseScale 1500ms infinite;
 }
 
 .tariffs-list .list-item:nth-child(1) .buy-btn {
