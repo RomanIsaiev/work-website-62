@@ -23,9 +23,31 @@
 /* hero */
 
 .hero {
-  background-image: url(../img/hero/ellipse.svg);
+  background-image: url(../img/hero/ellipse.svg),
+    url(../img/hero/objects-1x.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: left, right;
+}
+
+.hero .container {
+  background-image: url(../img/hero/text-1x.png);
+  background-repeat: no-repeat;
+  background-position: bottom 30px left 0;
+  background-size: contain;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/ellipse.svg),
+      url(../img/hero/objects-2x.png);
+  }
+
+  .hero .container {
+    background-image: url(../img/hero/text-2x.png);
+  }
 }
 
 .hero-title-container {
